@@ -1,0 +1,38 @@
+#1 You Need To Generate Your Own API KEY MAP SCRIPT IN google maps
+
+#2 Just Visit console.cloud.google.com And Make Your Own API KEY
+
+#3 COPY YOUR API KEY and PASTE IT IN OUR BLADE FILE 
+
+for USER MAP it is located at resources/views/testmap.blade.php AND paste it to the script src tag above
+
+for ADMIN MAP it is located at resources/views/admin/accident_reports.blade.php at the below of the style tag there is an scipt src tag for our MAP paste your API KEY THERE 
+
+#4 after you paste the API KEY into our CODE run this command into your VSCODE TERMINAL
+
+
+php artisan key:generate
+
+php artisan migrate
+
+php artisan serve 
+
+
+
+#5 Ctrl + click the LOCAL SERVER OF OUR laravel Project 
+
+THANK YOU THATS ALL
+
+
+
+
+
+<----------- You can Make and ADMIN USER using this following Steps --------->
+
+#1 Goto your DATABASE or localhost/phpmyadmin
+
+#2 Find "demo2" DATABASE
+
+#3 go to users table find the "role" column and CHANGE your Value " USER -> ADMIN " 
+
+#4 Refresh your local server page and LOG IN AGAIN and it will automatically redirect you to the admin dashboard

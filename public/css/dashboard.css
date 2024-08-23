@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+.container {
+    height: 100%;
+}
+.top-container {
+    border: 3px solid black;
+    display: flex;
+    padding: 10px;
+}
+.leaderboards {
+    border: 3px solid black;
+    margin: 10px;
+    width: 600px;   
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y:scroll;
+}
+.confirmed-reports {
+    border: 3px solid black;
+    margin: 10px;
+    width: 675px;   
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y:scroll;
+}
+.bottom-container {
+    height: 333px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
